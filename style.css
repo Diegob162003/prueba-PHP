@@ -51,3 +51,14 @@ body{
 #menu a:hover{
     background: blue;
 }
+
+#logo{
+    padding: 20px;
+    margin-left: 0px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 80px;
+}
