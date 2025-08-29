@@ -54,7 +54,7 @@ body{
 
 #menu a{
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(109, 60, 255);
     text-decoration: none;
     padding-left: 4px;
     padding-right: 8px;
@@ -67,18 +67,18 @@ body{
 #content{
     margin: 0px auto;
     overflow: hidden;
-    background: rgb(255, 197, 36);
+    background: rgb(255, 255, 255);
 }
 
 /*barra lateral */
 
 #lateral{
-    width: 17%;
-    min-height: 650px;
+    width: 19%;
+    min-height: 600px;
+    /* border: 1px solid red; */
     float: left;
     margin-top: 20px;
     margin-left: 10px;
-    border: 1px solid red;
 }
 
 #lateral .block_aside{
@@ -99,14 +99,63 @@ body{
     padding-bottom: 15px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #e1e1e1;
+    background-color: #06acff;
     border-bottom: 2PX solid #01b101;
 }
 /*barra central */
 
 #central{
-    width: 80%;
-    min-height: 650px;
+    width: 79%;
+    min-height: 600px;
     float: right;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #ddd;
+    padding: 5px;
+    margin-top: 20px;
 }
+
+#central h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    border-bottom: 1px solid  #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.product{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img{
+    height: 135px;
+    margin-bottom: 10px;    
+}
+
+.product a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.product a:hover{
+    color: rgb(34, 0, 255);
+}
+
+#footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    border-top: 5px solid #01b1ea;
+}
+
+
