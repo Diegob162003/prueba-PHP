@@ -54,7 +54,7 @@ body{
 
 #menu a{
     display: block;
-    color: rgb(109, 60, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding-left: 4px;
     padding-right: 8px;
@@ -83,10 +83,10 @@ body{
 
 #lateral .block_aside{
     display: block;
-    width: 87%;
+    width: 90%;
     margin: 5px;
     padding: 10px;
-    border: 1px solid blue;
+        
     
 }
 
